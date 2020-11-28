@@ -54,4 +54,15 @@ footer{
 footer h3, footer p{
     margin: 0;
     padding: 0.25rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 400px){
+    marquee{
+        font-size: 1rem;
+        width: 80%;
+    }
+    iframe{
+        height: 1120px;
+    }
 }
